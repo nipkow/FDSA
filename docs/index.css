@@ -1,0 +1,55 @@
+body {
+    padding:50px;
+    font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p.center {
+    text-align: center;
+}
+
+img.expose {
+    border-style: solid;
+    border-width: 1px;
+    max-width: 45%;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#wrapper {
+    width:80%;
+    margin:0 auto;
+}
+
+@media print, screen and (max-width: 960px) {
+
+  div.wrapper {
+    width:auto;
+    margin:0;
+  }
+
+  img.expose {
+    max-width: 100%;
+    height: unset;
+  }
+
+  img.left {
+    margin-bottom: 14px;
+  }
+
+}
+
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap:break-word;
+  }
+
+  pre, code {
+    word-wrap:normal;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  body {
+    padding:15px;
+  }
+}
