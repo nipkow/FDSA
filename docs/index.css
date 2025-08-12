@@ -8,6 +8,11 @@ h2{
     padding:0px;
 }
 
+h3{
+    margin:0px;
+    padding:0px;
+}
+
 body {
     padding:50px;
     font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
